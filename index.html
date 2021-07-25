@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NewWorldPRO</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+        integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+      <!--search box start here-->
+      <div class="ui search" style="margin: auto; width: 550px; margin-top: 20px;">
+        <form id="main_form" name="main_form" class="needs-validation" novalidate>
+
+            <div class="ui icon fluid input">
+
+                <input type="text" placeholder="Start typing your address to search..."
+                    onInput="searchresult()" id="searchBox" autocomplete="off" />
+                <i class="search icon blue"></i>
+            </div>
+
+
+        </form>
+    </div>
+        <!--search box end here-->
+        <!--search list start here-->
+        <div class="ui middle aligned selection list" id="results" style="display: block;"></div>
+        <!--search list end here-->
+
+        <div class="container">
+        <div class="ui fluid icon input">
+          <input type="text" id="name" value="" placeholder="name">
+        </div>
+          <div class="ui fluid icon input">
+          <input type="text" id="username" value="" placeholder="username">
+        </div>
+          <div class="ui fluid icon input">
+          <input type="text" id="email" value="" placeholder="email">
+        </div>
+      </div>
+        
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
