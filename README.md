@@ -1,6 +1,8 @@
 # JavaScript Project Rest Api
 ## This is a javascript project which searches user details based on search input.
 
+# Note: Based on the user input, system will lookup in all the results if the given input matched at any position
+
 ### Live project link:
 https://ikbalrazu.github.io/javascriptapiproject/
 
